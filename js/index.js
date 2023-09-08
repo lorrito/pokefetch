@@ -17,9 +17,11 @@ function selectRandomNumber(min, max) {
 
 function nextPokemon() {
     pokemonImage.toggleClass("hidden");
+    pokemonNames.prop("disabled", true);
     setTimeout(() => {
         getPokemon();
         pokemonImage.toggleClass("hidden");
+        pokemonNames.prop("disabled", false);
     }, 1500);
 }
 
