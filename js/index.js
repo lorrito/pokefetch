@@ -6,7 +6,6 @@ let pokemonName = "";
 let correctPokemon = "";
 let pokemonNames = $(".buttons");
 let pokemonImage = $("#pokemon-image");
-let pokemonContainer = $("#image-container");
 let correctCombo = $("#combo");
 let gameStarted = false;
 let apiURL = "https://pokeapi.co/api/v2/pokemon/";
