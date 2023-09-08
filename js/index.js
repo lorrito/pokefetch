@@ -15,10 +15,6 @@ function selectRandomNumber(min, max) {
     return Math.floor(Math.random() * max + min);
 }
 
-function toggleHidden() {
-    pokemonImage.toggleClass 
-}
-
 function nextPokemon() {
     pokemonImage.toggleClass("hidden");
     setTimeout(() => {
